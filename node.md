@@ -51,3 +51,10 @@ b2. git fetch origin
 b3. git checkout -b {tên branch muốn tạo} origin/{tên branch trên git muốn lấy xuống}
 
 *** kết hợp với git merge or với các branch khác
+b1. git checkout master -> để trở về nhánh chính
+b2. git pull -> để về những barnch 
+
+*** cách để git khôn theo dõi file nào đó
+b1. tạo ra 1 file mới 
+    => cú pháp:
+    . + {tên file}
