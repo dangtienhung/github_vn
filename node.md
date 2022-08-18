@@ -38,3 +38,16 @@ Local
     -> cách tại ra tên thay thế cho link repository
 16. git clone {link repository}
 => lấy 1 remote repo trên github về local của máy chúng ta (thông thường sẽ xảy ra nhiều hơn)
+
+--------------------------------------------------------
+*** tạo ra 1 branch ở local và đẩy lên repository
+b1. tạo 1 branch mới ở local
+b2. git push -u {link repository} + {name branch}
+
+*** lấy ra 1 repo trên github đẩy về local
+b1. trên máy local chúng ta dùng
+    => git checkout master -> di chuyển về nhánh master
+b2. git fetch origin 
+b3. git checkout -b {tên branch muốn tạo} origin/{tên branch trên git muốn lấy xuống}
+
+*** kết hợp với git merge or với các branch khác
