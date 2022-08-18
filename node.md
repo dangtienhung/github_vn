@@ -9,4 +9,9 @@ repository (Repo): -> là dự án của ta đang làm việc
     git add + tên file cần  lưu
     git adđ . -> lưu tất cả các file cùng 1 lúc
 4. git reset -> đẩy các file về trang thái chưa lưu
-
+5. git commit -> ghi chú của file
+=> cú pháp: 
+    git commit -m 'initial commit' -> đánh dấu lần đầu khi bắt đầu dự án
+    git commit -m 'tên commit'
+6. git log -> coi lại thời điểm lưu
+    git log --oneline -> nó sẽ gọn gàng hơn
