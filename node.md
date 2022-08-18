@@ -2,6 +2,7 @@
 
 repository (Repo): -> là dự án của ta đang làm việc
 Branch
+Conflict
 
 1. git init -> để biến dự án của chúng ta trở thành 1 repository
 2. git status -> cho ta thấy được trạng thái của mình
@@ -25,3 +26,7 @@ Branch
 10. git chekout -b -> tạo ra brach mới 
 => cú pháp:
     git chekout -b + tên branch muốn tạo
+11. git checkout {branch name} -> di chuyển giữa các branch
+    ex: git checkout master -> quay trở lại branch master
+12. git merge {branch name} -> tổng hợp 2 branch lại thành 1
+13. git branch -d {branch name} -> xóa đi 1 branch 
