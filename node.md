@@ -3,6 +3,7 @@
 repository (Repo): -> là dự án của ta đang làm việc
 Branch
 Conflict
+Local
 
 1. git init -> để biến dự án của chúng ta trở thành 1 repository
 2. git status -> cho ta thấy được trạng thái của mình
@@ -30,3 +31,8 @@ Conflict
     ex: git checkout master -> quay trở lại branch master
 12. git merge {branch name} -> tổng hợp 2 branch lại thành 1
 13. git branch -d {branch name} -> xóa đi 1 branch 
+14. git push -> đẩy lên local repo của mình
+=> cú pháp:
+    git push + đường link repository + tên branch
+15. git remote add + {tên mình muốn đặt} + {link repository}
+    -> cách tại ra tên thay thế cho link repository
