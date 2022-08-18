@@ -36,5 +36,5 @@ Local
     git push + đường link repository + tên branch
 15. git remote add + {tên mình muốn đặt} + {link repository}
     -> cách tại ra tên thay thế cho link repository
-16. 
+16. git clone {link repository}
 => lấy 1 remote repo trên github về local của máy chúng ta (thông thường sẽ xảy ra nhiều hơn)
